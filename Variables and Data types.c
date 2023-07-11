@@ -3,13 +3,14 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    char c='a';
-    float f;
-    double d;
-    printf("%d\n",sizeof(a));
-    printf("%c  this char only single quotes need and byte is %d \n",c,sizeof(c));
-     printf("%d\n",sizeof(f));
-     printf("%d\n",sizeof(d));
+  // Create variables
+int myNum = 15;            // Integer (whole number)
+float myFloatNum = 5.99;   // Floating point number
+char myLetter = 'S';       // Character
+
+// Print variables
+printf("%d\n", myNum);
+printf("%f\n", myFloatNum);
+printf( "The character of size is:%lu ",sizeof(myLetter));
     return 0;
 }

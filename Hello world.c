@@ -1,11 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
+
 int main()
 {
-    int a;
-
-    printf("Hello world");
-
+    printf("Hello Sulai the Legend");
     return 0;
 }
 
