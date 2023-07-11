@@ -11,6 +11,6 @@ char myLetter = 'S';       // Character
 // Print variables
 printf("%d\n", myNum);
 printf("%f\n", myFloatNum);
-printf( "The character of size is:%lu ",sizeof(myLetter));
+printf( "The character of size is: %i bytes ",sizeof(myLetter));
     return 0;
 }
