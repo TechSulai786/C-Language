@@ -7,6 +7,6 @@ int main()
         {6, 7, 8, 9, 8},
         {2, 6, 7, 8, 5}};
 
-    printf("%d", arr[0][4]);
+    printf("%d", arr[0][4] );
     return 0;
 }
